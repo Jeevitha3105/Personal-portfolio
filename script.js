@@ -89,6 +89,7 @@ if (bar && close && nav) {
   var modalButtons = document.querySelectorAll(".openModal");
   var closeButtons = document.querySelectorAll(".close");
 
+
   // Function to open modal
   function openModal(modalId) {
     var modal = document.getElementById(modalId);
@@ -139,8 +140,5 @@ if (bar && close && nav) {
       event.stopPropagation();
     });
   });
-
-
-
-
+  
 });

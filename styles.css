@@ -572,7 +572,7 @@ html{
     justify-content: center;
     width: 400px;
     height: 300px;
-    background-color: #8F61EC;
+    background-color: #1A1226;
     border-radius: 20px;
     position: relative;
     overflow: hidden;
@@ -728,12 +728,13 @@ height: 300px;
 .modal-content .img-cont{
     width: 100%;
     height: 300px;
+    margin-bottom: 20px;
 }
 
 .img-cont img{
     width: 100%;
     height: 100%;
-  
+    
 }
 
 .modal-content p{
@@ -750,6 +751,7 @@ height: 300px;
     align-items: center;
     gap: 20px;
 }
+
 .project-detail span{
 color: #8F61EC;
 }
@@ -761,7 +763,6 @@ color: #8F61EC;
     font-size: 16px;
     cursor: pointer;
     background: linear-gradient(to right, #8F61EC, #2C1659);
-
 }
 
 .modal-content button a{
