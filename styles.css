@@ -17,7 +17,8 @@ html{
 }
 
 .section-p1{
-    padding: 110px 80px;
+    /* padding: 110px 80px; */
+    padding: 110px 40px;
 }
 
 .section-m1{
@@ -901,6 +902,12 @@ body.modal-open {
     .row-2 section .icon {
         left: -80px;
       }
+
+      .cursor-dot,
+      .cursor-outline{
+          display: none;
+      }
+
   }
   
   @media (max-width: 440px) {
@@ -913,11 +920,16 @@ body.modal-open {
     .wrapper .row {
       margin: 10px 0;
     }
+
+    .cursor-dot,
+.cursor-outline{
+    display: none;
+}
   }
   
 
 
-  @media screen and (max-width: 490px) {
+  @media (max-width: 490px) {
 
     .hero h2{
         margin-bottom: 20px;
@@ -942,6 +954,11 @@ body.modal-open {
         width: 80%;
         max-width: 600px;
         border-radius: 8px;
+    }
+
+    .cursor-dot,
+    .cursor-outline{
+        display: none;
     }
   } 
 
